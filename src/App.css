@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*RECEPÇÃO*/
+#page-landing{
+    background: linear-gradient(329.54deg, #7652d8 0%, #e0496f 0%, #228aebe3 100%); 
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.visite a {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 25px;
+
+    background: rgb(53, 62, 192);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+    margin-top: 30px;
+
+    transition: background 200ms
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.visite a:hover{
+    background:#e7063e;
+    color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.visite a {
+    animation-delay: 250ms;
 }
 
-.App-link {
-  color: #61dafb;
+/*TODOS*/
+
+.container {
+  margin: auto;
+  width: 70%; 
 }
 
-@keyframes App-logo-spin {
+.image{
+
+  height: 13rem;
+  width: 13rem;
+  border: none;
+  border-radius: 4rem;
+
+  margin-top: 30px;
+}
+
+@keyframes up{
   from {
-    transform: rotate(0deg);
+      opacity: 0;
+      transform: translateY(16px);
+
   }
   to {
-    transform: rotate(360deg);
+      opacity: 1;
+      transform: translateY(0px);
+
   }
+}
+
+.animate-up{
+    animation-name: up;
+    animation-duration: 300ms;
+    animation-fill-mode: backwards;
+}
+
+h1 {
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 2.3rem;
+    margin-top: 1.4rem;
+    animation-delay: 150ms;
+}
+
+h2 {
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-top: 1.4rem;
+    font-size: 1.4rem;
+    animation-delay: 200ms;
+}
+
+/*INICIO*/
+
+.App {
+  margin: 0;
+  padding: 0; 
+  background: linear-gradient(329.54deg, #7652d8af 0%, #76b8f5 100%); 
+  color: white;
+
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.grid{
+  
+  background-color: white;
+}
+
+.card-list {
+  height: 120vh;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* min de 200px e max de 1fr diz ao browser p distribuir o espaço entre as colunas para cada coluna terem uma fração do espaço. */
+  grid-auto-rows: minmax(50px, auto); /* tamanho default para filas "linhas" no grid: */
+  padding:20px;
+  margin-bottom:40px
+}
+
+
+/* Seleciona um a cada 5 elementos
+   de qualquer grupo de elementos irmãos,
+   começando do 5 elemento */
+.card:nth-child(5n) {
+    grid-column-end: span 2; /* 5° e 10° elemento ocupam o espaço de 2 fotos */
+}
+
+.card--image {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*manter sua proporção e preencher toda a caixa de conteúdo do elemento*/
+  border-radius: 20px;
+}
+
+/*NAO ENCONTRADO*/
+
+.NaoEncontrado{
+  background: linear-gradient(329.54deg, #7652d8 0%, #e0496f 0%, #228aebe3 100%); 
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
 }
