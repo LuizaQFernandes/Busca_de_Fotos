@@ -2,7 +2,7 @@
 
 /*RECEPÇÃO*/
 #page-landing{
-    background: linear-gradient(329.54deg, #7652d8 0%, #e0496f 0%, #228aebe3 100%); 
+    background: linear-gradient(to bottom right, #ffe88b, #F13849, #F13849, #FFDE59);
     color: white;
     text-align: center;
     min-height: 100vh;
@@ -15,7 +15,7 @@
 
     border-radius: 25px;
 
-    background: rgb(53, 62, 192);
+    background: #af1323;
     color: white;
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@
 }
 
 .visite a:hover{
-    background:#e7063e;
+    background: #FFDE59;
     color: black;
 }
 
@@ -39,6 +39,7 @@
 /*TODOS*/
 
 .container {
+  
   margin: auto;
   width: 70%; 
 }
@@ -49,6 +50,7 @@
   width: 13rem;
   border: none;
   border-radius: 4rem;
+  background-color: white;
 
   margin-top: 30px;
 }
@@ -91,7 +93,7 @@ h2 {
 .App {
   margin: 0;
   padding: 0; 
-  background: linear-gradient(329.54deg, #7652d8af 0%, #76b8f5 100%); 
+  background: linear-gradient(to bottom right,  #228185, #5CE1E6, #228185); 
   color: white;
 
   text-align: center;
@@ -133,7 +135,7 @@ h2 {
 /*NAO ENCONTRADO*/
 
 .NaoEncontrado{
-  background: linear-gradient(329.54deg, #7652d8 0%, #e0496f 0%, #228aebe3 100%); 
+  background: linear-gradient(to bottom right, #ffe88b, #F13849, #F13849, #FFDE59);
   color: white;
   text-align: center;
   min-height: 100vh;

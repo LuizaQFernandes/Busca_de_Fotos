@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-import logo from '../../components/images/imagelogo.png';
+import logo from '../../components/images/logo.png';
 
 export default function Recepcao(){
   

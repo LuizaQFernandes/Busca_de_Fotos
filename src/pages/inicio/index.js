@@ -1,7 +1,7 @@
 import React from 'react'
 import Busca from '../../components/Busca'
 import '../../App.css'
-import logo from '../../components/images/imagelogo.png';
+import logo from '../../components/images/logo.png';
 
 export default function Inicio() {
     return (

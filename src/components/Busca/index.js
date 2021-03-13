@@ -38,6 +38,7 @@ const useStyles = makeStyles((theme) => ({
     height: 550,
     borderRadius: 0,
   },
+
 }));
 
 let api_key = process.env.REACT_APP_API_KEY;
@@ -116,8 +117,8 @@ export default function SearchPhotos(keyword, page, per_page, filters) {
             </Select>
           </FormControl>
         </Container>
-        <Button
-          style={{ marginBottom: 60 }}
+        <Button 
+          style={{ marginBottom: 60, backgroundColor: '#FFDE59', color: 'black'}}
           type="button"
           onClick={searchFotos}
           variant="contained"
