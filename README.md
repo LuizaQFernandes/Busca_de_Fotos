@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Photo Search 
+
+Developed with REACT and Unsplash API 
+Find beautiful pictures with the Photo Search  :smile: :camera: :heart:
 
 ## Layout
 
@@ -8,6 +11,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![image](https://user-images.githubusercontent.com/62905577/111031905-99bec600-83e8-11eb-9c60-c55428b459fb.png)
 ![image](https://user-images.githubusercontent.com/62905577/111031947-c83ca100-83e8-11eb-9dd2-348a2c23649d.png)
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
