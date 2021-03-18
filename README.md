@@ -1,6 +1,7 @@
 ## Photo Search 
 
 Developed with REACT and Unsplash API 
+
 Find beautiful pictures with the Photo Search  :smile: :camera: :heart:
 
 ## Layout
