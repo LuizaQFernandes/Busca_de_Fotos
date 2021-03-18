@@ -29,6 +29,7 @@ function App(){
   theme = responsiveFontSizes(theme)
 
   return(
+    
     <MuiThemeProvider theme = {theme}>
     <CssBaseLine/>
     <Rotas />
